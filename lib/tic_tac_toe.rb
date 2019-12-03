@@ -86,5 +86,5 @@ class TicTacToe
     end
     won
   end
-  
+
 end
