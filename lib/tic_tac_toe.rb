@@ -113,7 +113,7 @@ class TicTacToe
 
   def winner
     victor = won?
-    victor[0]
+    @board[victor[0]]
   end
 
   def play
