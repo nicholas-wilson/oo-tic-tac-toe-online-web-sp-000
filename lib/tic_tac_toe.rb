@@ -78,9 +78,9 @@ class TicTacToe
     won = false
     WIN_COMBINATIONS.each do |combo|
       if combo[0] == "X" && combo[1] == "X" && combo[2] == "X"
-        won = true
+        won = combo
       elsif combo[0] == "O" && combo[1] == "O" && combo[2] == "O"
-        won = true
+        won = combo
       end
     end
     won
