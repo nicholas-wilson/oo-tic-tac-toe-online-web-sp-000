@@ -116,7 +116,7 @@ class TicTacToe
     if victor
       @board[victor[0]]
     else
-      victor
+      nil
     end
   end
 
