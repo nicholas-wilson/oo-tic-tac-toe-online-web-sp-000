@@ -112,7 +112,8 @@ class TicTacToe
   end
 
   def winner
-    victor = won?[0]
+    victor = won?
+    victor[0]
   end
 
   def play
