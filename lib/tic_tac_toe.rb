@@ -91,5 +91,6 @@ class TicTacToe
       winning_combo
     else
       won
+    end
   end
 end
