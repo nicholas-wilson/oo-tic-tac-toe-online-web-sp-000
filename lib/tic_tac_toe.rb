@@ -87,4 +87,27 @@ class TicTacToe
     won
   end
 
+  def full?
+    if turn_count >= 9
+      true
+    else
+      false
+    end
+  end
+
+  def draw?
+
+  end
+
+  def over?
+
+  end
+
+  def winner
+
+  end
+
+  def play
+
+  end
 end
