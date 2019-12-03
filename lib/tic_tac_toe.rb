@@ -80,8 +80,8 @@ class TicTacToe
     WIN_COMBINATIONS.each do |combo|
       if combo.all?("X")
         won = combo
-      elsif combo[0] == "O" && combo[1] == "O" && combo[2] == "O"
-        return combo
+      elsif combo.all?("O")
+        won = combo
       end
     end
     won
