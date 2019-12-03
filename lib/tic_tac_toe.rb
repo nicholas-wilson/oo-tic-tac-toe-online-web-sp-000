@@ -117,6 +117,7 @@ class TicTacToe
       @board[victor[0]]
     else
       victor
+    end
   end
 
   def play
